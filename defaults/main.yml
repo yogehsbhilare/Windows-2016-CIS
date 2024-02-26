@@ -84,7 +84,7 @@ copy_audit_exe: false
 download_goss_config: true
 
 # enable audits to run - this runs the audit and get the latest content
-run_audit: false
+run_audit: true
 
 # output location for the audit
 # Caution for the windows path \ / as some commands transponse them. this allows all to work.

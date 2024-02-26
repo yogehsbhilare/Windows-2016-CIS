@@ -73,7 +73,7 @@ win_skip_for_test: false
 #### Precise details - per setting can be found at the bottom of this file ####
 
 # Set up the system to be able to run the audit tool
-setup_audit: false
+setup_audit: true
 ### The individual exe is required on the remote host
 ## This can be copied or downloaded
 # paths can be changed at the bottom of the role
@@ -499,7 +499,7 @@ is_hyperv_installed: false
 # Section 2 Variables
 # Control 2.3.1.5
 # win16cis_admin_username is the name the administrator account will be renamed to
-win16cis_admin_username: ChangeThis
+win16cis_admin_username: infinity_admin
 
 # Control 2.3.1.6
 # win16cis_guest_username is the name the guest account will be renamed to
@@ -532,13 +532,11 @@ newadministratorname: renamedadmin
 newguestname: renamedguest
 
 legalnoticetext: |
-    You are accessing a U.S. Government (USG) Information System (IS) that is provided for USG-authorized use only.
+    You are accessing a NCS private enviournment 
 
     By using this IS (which includes any device attached to this IS), you consent to the following conditions:
 
     -The USG routinely intercepts and monitors communications on this IS for purposes including, but not limited to, penetration testing, COMSEC monitoring, network operations and defense, personnel misconduct (PM), law enforcement (LE), and counterintelligence (CI) investigations.
-
-    -At any time, the USG may inspect and seize data stored on this IS.
 
     -Communications using, or data stored on, this IS are not private, are subject to routine monitoring, interception, and search, and may be disclosed or used for any USG-authorized purpose.
 
